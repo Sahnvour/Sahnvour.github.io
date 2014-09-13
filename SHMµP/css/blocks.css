@@ -1,0 +1,48 @@
+
+.block-blue {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png);
+	background-position: -8px 0px;
+}
+
+.block-red {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png); 
+	background-position: -16px 0px;
+}
+
+.block-green {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png); 
+	background-position: -24px 0px;
+}
+
+.block-purple {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png); 
+	background-position: -32px 0px;
+}
+
+.block-yellow {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png); 
+	background-position: -40px 0px;
+}
+
+.block-orange {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png); 
+	background-position: -48px 0px;
+}
+
+.block-lightblue {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png); 
+	background-position: -56px 0px;
+}
+
+.block-grey {
+	width: 8px; height: 8px;
+	background: url(../img/blocks.png); 
+	background-position: -64px 0px;
+}
