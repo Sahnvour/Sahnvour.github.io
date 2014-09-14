@@ -1,48 +1,33 @@
-
-.block-blue {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png);
-	background-position: -8px 0px;
+.block {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	background: url("../img/blocks.png") repeat scroll -0px 0 transparent;
+	height: 8px;
+	width: 8px;
 }
 
-.block-red {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png); 
-	background-position: -16px 0px;
+.block.blue {
+	background-position: -8px 0;
 }
-
-.block-green {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png); 
-	background-position: -24px 0px;
+.block.red {
+	background-position: -16px 0;
 }
-
-.block-purple {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png); 
-	background-position: -32px 0px;
+.block.green {
+	background-position: -24px 0;
 }
-
-.block-yellow {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png); 
-	background-position: -40px 0px;
+.block.purple {
+	background-position: -32px 0;
 }
-
-.block-orange {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png); 
-	background-position: -48px 0px;
+.block.yellow {
+	background-position: -40px 0;
 }
-
-.block-lightblue {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png); 
-	background-position: -56px 0px;
+.block.orange {
+	background-position: -48px 0;
 }
-
-.block-grey {
-	width: 8px; height: 8px;
-	background: url(../img/blocks.png); 
-	background-position: -64px 0px;
+.block.lightblue {
+	background-position: -56px 0;
+}
+.block.grey {
+	background-position: -64px 0;
 }
