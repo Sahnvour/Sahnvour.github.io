@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Python on Antoine Vugliano </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://sahnvour.github.io/tags/python/index.xml/</link>
+    <language>en-us</language>
+    <author>Antoine Vugliano</author>
+    
+    <updated>Wed, 03 Dec 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Skeletons</title>
+      <link>http://sahnvour.github.io/projects/skeletons/</link>
+      <pubDate>Wed, 03 Dec 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/skeletons/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Skeletons&lt;/strong&gt; is a procedural generator of animalish skeletons.&lt;/p&gt;
+
+&lt;p&gt;During my year at &lt;a href=&#34;/tags/Gamagora&#34;&gt;Gamagora&lt;/a&gt;, I attended a short course on procedural generation. As a final project, I wrote this generator with two friends.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Objectives&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Content&lt;/h2&gt;
+
+&lt;p&gt;I thought, probably influenced by the game &lt;em&gt;Spore&lt;/em&gt;, that generating creatures would be interesting; and it&amp;rsquo;s quite different from the sempiternal terrains.&lt;/p&gt;
+
+&lt;p&gt;Generating a complete creature with bones, organs, tissues would require an incredible amount of work though, so we limited ourselves to skeletons. This is afterall what gives its structure to a body, and we can use our imagination to build the rest. Doing so also has the advantage that we could easily translate it to 3D animation skeletons afterwards.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Accessibility&lt;/h2&gt;
+
+&lt;p&gt;Procedural generation is a pretty &lt;em&gt;cool&lt;/em&gt; subject in computer science, and lots of programmers enjoy doing things that work, but that are comprehensible only to other programmers.&lt;/p&gt;
+
+&lt;p&gt;In the video games world, procedural generation is used to produce large quantities of various content, but it is easy to forget that somebody has to do a quality check on the generated content. This person is most probably a non-tech, like an artist or level designer. The other goal of creating a procedural generator is therefore to make it usable by other people, who do not necessarily understand how it works.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;Technical side&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Engine&lt;/h2&gt;
+
+&lt;p&gt;The engine for this generator is a &lt;a href=&#34;https://en.wikipedia.org/wiki/L-system&#34;&gt;L-system&lt;/a&gt; library we wrote during course, and improved for this project.&lt;/p&gt;
+
+&lt;p&gt;Our skeletons are defined by a grammar, consisting of rules that describe how bones are produced. Given a starting point; the &lt;em&gt;axiom&lt;/em&gt;, the engine will process the rules to expand our axiom into a list of &lt;em&gt;symbols&lt;/em&gt; to which we give meaning: these will be our bones.&lt;/p&gt;
+
+&lt;h4 id=&#34;toc_5&#34;&gt;Sample grammar&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Trunk → Head Spine Tail
+Spine → HighSpine LowSpine
+HighSpine → Vertebra [Arm] Vertebra HighSpine
+HighSpine → ε
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;These rules are translated into Python code, but in the current state they do not provide enough information to produce interesting skeletons. That&amp;rsquo;s why we introduced parameters into our rules, to have more complex emerging behaviors.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;UI&lt;/h2&gt;
+
+&lt;p&gt;The symbols are then processed by a set of &lt;em&gt;drawing commands&lt;/em&gt;: they abstract the way to represent symbols. It could be anything like printing their names to the console, or sending meshes to a 3D printer.&lt;/p&gt;
+
+&lt;p&gt;We wanted to have visual and real-time feedback for the user, so having a 3D view of our skeletons inside the project was the goal. This way, we could also put parameters as widgets inside the UI and let the user play with the generator at its full extent.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_7&#34;&gt;Result&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/skeletons-01.png&#34; alt=&#34;screenshot&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

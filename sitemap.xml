@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://sahnvour.github.io/</loc>
+    <lastmod>2014-12-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://sahnvour.github.io/projects/skeletons/</loc>
+    <lastmod>2014-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sahnvour.github.io/projects/cosse%20toi%20d%27l%C3%A0%20%21/</loc>
+    <lastmod>2014-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sahnvour.github.io/projects/shmup/</loc>
+    <lastmod>2014-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Personnal on Antoine Vugliano </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://sahnvour.github.io/categories/personnal/index.xml/</link>
+    <language>en-us</language>
+    <author>Antoine Vugliano</author>
+    
+    <updated>Sun, 23 Nov 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Cosse toi d&#39;là !</title>
+      <link>http://sahnvour.github.io/projects/cosse%20toi%20d%27l%C3%A0%20%21/</link>
+      <pubDate>Sun, 23 Nov 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/cosse%20toi%20d%27l%C3%A0%20%21/</guid>
+      <description>
+
+&lt;p&gt;By the end of November 2014, I took part in the &lt;a href=&#34;gamedevparty.fr&#34;&gt;Game Dev Party #7&lt;/a&gt;, a game jam organized in lyon two times a year.&lt;/p&gt;
+
+&lt;p&gt;The theme was, in French: &amp;ldquo;Petit pois, gros poi(ds)&amp;rdquo;. This is a pun over the fact that &lt;em&gt;pois&lt;/em&gt; (pea) and &lt;em&gt;poids&lt;/em&gt; (weight) are pronounced the same way.&lt;/p&gt;
+
+&lt;p&gt;We created this game in less than 48 hours as a team of four: one game designer, one graphist and two programmers.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Peass off!&lt;/h1&gt;
+
+&lt;p&gt;The concept of the game is very simple: you are a pea among four that are struggling to keep their place in the plate. Up to four player can battle and try to eject their opponents.&lt;/p&gt;
+
+&lt;p&gt;Players control their peas by giving them an impulsion and a direction with a XBOX 360 controller. The edges of the plate are elevated, so that a pea is attracted towards the center and needs some speed to get out.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;More&lt;/h1&gt;
+
+&lt;p&gt;coming soon&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SHMµP</title>
+      <link>http://sahnvour.github.io/projects/shmup/</link>
+      <pubDate>Sat, 30 Aug 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/shmup/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;SHMµP&lt;/strong&gt; is a little game I work on during my spare time. I felt like it reached the point where I can show it, so here we go. It is by no means finished, but more like a demo at the current state; yet it is totally playable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/shmup-01.png&#34; alt=&#34;screenshot&#34; /&gt;
+
+&lt;img src=&#34;http://i.imgur.com/ZhXGJkz.png&#34; alt=&#34;color blocks image&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;What is this game about ?&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Minimalism&lt;/h2&gt;
+
+&lt;p&gt;Going for graphic minimalism is certainly an easy way to avoid doing art. My art skills being non-existent, it allowed me to have a very small amount of assets (basically a single 64*8 texture) in the game, and to give it a coherent look and feel.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;block&lt;/strong&gt; is the elementary unit in the game. The player&amp;rsquo;s ship, enemies, bullets, everything is composed of blocks.&lt;/p&gt;
+
+&lt;p&gt;Blocks are important for the gameplay, of course. They are what you will use to build your ship, making it unique. Each block has a particular effect on your ship, and so the do on enemies!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgflip.com/f00j2.jpg&#34; alt=&#34;blocks everywhere&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Yet no mining, no crafting.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Procedural content&lt;/h2&gt;
+
+&lt;p&gt;I am lazy, so this game includes 0 stages.
+The good news is, no stage means infinite stage: the enemies are generated on the fly, by a clever algorithm (soon™).
+As time passes, the difficulty increases. By beating enemies, getting bonus and avoiding getting hit, the player increases his skill-o-meter. Waves will then adapt the way they generate enemies based on these 2 parameters, among others.&lt;/p&gt;
+
+&lt;p&gt;The game relies heavily on random, but every run can be replayed: you just need to enter the same seed once again.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Scripting&lt;/h2&gt;
+
+&lt;p&gt;Enemies are scripts.&lt;/p&gt;
+
+&lt;p&gt;Waves are scripts.&lt;/p&gt;
+
+&lt;p&gt;Scripts are simple &lt;em&gt;lua&lt;/em&gt; files one can drop in the scripts folder and they will just work. They use a very simple &lt;em&gt;API&lt;/em&gt;, making it easy for anybody with basic programming knowledge to write one.&lt;/p&gt;
+
+&lt;h4 id=&#34;toc_4&#34;&gt;Sample enemy script&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-lua&#34;&gt;BLOCKS = {
+    blocks.None,    blocks.None,    blocks.None,    blocks.None,    blocks.None,
+    blocks.None,    blocks.Blue,    blocks.Blue,    blocks.Blue,    blocks.None,
+    blocks.None,    blocks.Blue,    blocks.Blue,    blocks.Blue,    blocks.None,
+    blocks.None,    blocks.Blue,    blocks.Blue,    blocks.Blue,    blocks.None,
+    blocks.None,    blocks.None,    blocks.None,    blocks.None,    blocks.None
+}
+
+local onScreen = false
+local start
+
+function init(enemy)
+    enemy:setMaxLife(1)
+    enemy:setLife(1)
+end
+
+function update(enemy)
+    if not onScreen then
+        start = game.time
+        onScreen = true
+    end
+    local duration = game.time:since(start):asSeconds()
+    enemy:setSpeedY(math.cos(2*duration)*60)
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;toc_5&#34;&gt;External links&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://sahnvour.github.io/SHMµP/&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Sahnvour/shmup-scripting&#34;&gt;Scripting documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

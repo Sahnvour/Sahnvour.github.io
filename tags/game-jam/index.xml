@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Game-Jam on Antoine Vugliano </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://sahnvour.github.io/tags/game-jam/index.xml/</link>
+    <language>en-us</language>
+    <author>Antoine Vugliano</author>
+    
+    <updated>Sun, 23 Nov 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Cosse toi d&#39;là !</title>
+      <link>http://sahnvour.github.io/projects/cosse%20toi%20d%27l%C3%A0%20%21/</link>
+      <pubDate>Sun, 23 Nov 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/cosse%20toi%20d%27l%C3%A0%20%21/</guid>
+      <description>
+
+&lt;p&gt;By the end of November 2014, I took part in the &lt;a href=&#34;gamedevparty.fr&#34;&gt;Game Dev Party #7&lt;/a&gt;, a game jam organized in lyon two times a year.&lt;/p&gt;
+
+&lt;p&gt;The theme was, in French: &amp;ldquo;Petit pois, gros poi(ds)&amp;rdquo;. This is a pun over the fact that &lt;em&gt;pois&lt;/em&gt; (pea) and &lt;em&gt;poids&lt;/em&gt; (weight) are pronounced the same way.&lt;/p&gt;
+
+&lt;p&gt;We created this game in less than 48 hours as a team of four: one game designer, one graphist and two programmers.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Peass off!&lt;/h1&gt;
+
+&lt;p&gt;The concept of the game is very simple: you are a pea among four that are struggling to keep their place in the plate. Up to four player can battle and try to eject their opponents.&lt;/p&gt;
+
+&lt;p&gt;Players control their peas by giving them an impulsion and a direction with a XBOX 360 controller. The edges of the plate are elevated, so that a pea is attracted towards the center and needs some speed to get out.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;More&lt;/h1&gt;
+
+&lt;p&gt;coming soon&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
