@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://sahnvour.github.io/</loc>
-    <lastmod>2014-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2015-01-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://sahnvour.github.io/projects/collimateru/</loc>
+    <lastmod>2015-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,8 +23,18 @@
   </url>
   
   <url>
+    <loc>http://sahnvour.github.io/projects/dalicious/</loc>
+    <lastmod>2014-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://sahnvour.github.io/projects/shmup/</loc>
     <lastmod>2014-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sahnvour.github.io/projects/holidayz/</loc>
+    <lastmod>2014-05-29T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

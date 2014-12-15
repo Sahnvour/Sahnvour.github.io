@@ -7,7 +7,29 @@
     <language>en-us</language>
     <author>Antoine Vugliano</author>
     
-    <updated>Sun, 23 Nov 2014 00:00:00 UTC</updated>
+    <updated>Sat, 10 Jan 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Collimateru</title>
+      <link>http://sahnvour.github.io/projects/collimateru/</link>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/collimateru/</guid>
+      <description>&lt;p&gt;This project is a &lt;a href=&#34;https://en.wikipedia.org/wiki/Path_tracing&#34;&gt;path tracer&lt;/a&gt; running on CPU, for educational purpose.&lt;/p&gt;
+
+&lt;p&gt;Development is on-going, it currently features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Global Illumination&lt;/li&gt;
+&lt;li&gt;Point and sphere lights&lt;/li&gt;
+&lt;li&gt;Diffuse, specular, refractive, glossy materials&lt;/li&gt;
+&lt;li&gt;Multi-material surfaces&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/collimateru-01.png&#34; alt=&#34;image&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cosse toi d&#39;là !</title>
@@ -17,21 +39,54 @@
       <guid>http://sahnvour.github.io/projects/cosse%20toi%20d%27l%C3%A0%20%21/</guid>
       <description>
 
-&lt;p&gt;By the end of November 2014, I took part in the &lt;a href=&#34;gamedevparty.fr&#34;&gt;Game Dev Party #7&lt;/a&gt;, a game jam organized in lyon two times a year.&lt;/p&gt;
+&lt;p&gt;Only two days after the &lt;a href=&#34;/projects/dalicious&#34;&gt;MIG&lt;/a&gt;, I took part in the &lt;a href=&#34;http://gamedevparty.fr&#34;&gt;Game Dev Party #7&lt;/a&gt;, a game jam organized in lyon two times a year.&lt;/p&gt;
 
 &lt;p&gt;The theme was, in French: &amp;ldquo;Petit pois, gros poi(ds)&amp;rdquo;. This is a pun over the fact that &lt;em&gt;pois&lt;/em&gt; (pea) and &lt;em&gt;poids&lt;/em&gt; (weight) are pronounced the same way.&lt;/p&gt;
 
-&lt;p&gt;We created this game in less than 48 hours as a team of four: one game designer, one graphist and two programmers.&lt;/p&gt;
+&lt;p&gt;The GDP is a very friendly game jam, there is no competition between teams. The organizers also promote taking some sleep during the jam. As a result, the office hosting it is closed from midnight to 8am. The event lasts then less than 48 hours.&lt;/p&gt;
 
 &lt;h1 id=&#34;toc_0&#34;&gt;Peass off!&lt;/h1&gt;
 
-&lt;p&gt;The concept of the game is very simple: you are a pea among four that are struggling to keep their place in the plate. Up to four player can battle and try to eject their opponents.&lt;/p&gt;
+&lt;p&gt;My team was composed of 4 members: one game designer, one graphist and two developers including me.&lt;/p&gt;
 
-&lt;p&gt;Players control their peas by giving them an impulsion and a direction with a XBOX 360 controller. The edges of the plate are elevated, so that a pea is attracted towards the center and needs some speed to get out.&lt;/p&gt;
+&lt;p&gt;We wanted to develop a simple game that we could potentially make playable by the end of the jam; to avoid going for a too big project.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;More&lt;/h1&gt;
+&lt;p&gt;The concept of the game is very simple: you are a pea among four that are struggling to keep their place in the plate. The edges of the plate are elevated, so that the slope and gravity attract the peas towards the center.
+To eject other peas, you have to charge a impulsion and release it in direction of an opponent, inertia will do the rest. Each player has a jauge driving this charge, so beware of not wasting it because it has to refill!
+Sometimes small zones will pop that modify the friction of your pea, they can slow you or give acceleration.&lt;/p&gt;
 
-&lt;p&gt;coming soon&lt;/p&gt;
+&lt;p&gt;The game is playable up to four players with XBOX 360 controllers. We used the lua framework &lt;strong&gt;LÖVE&lt;/strong&gt; with a homemade entity component framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/cosse-01.jpg&#34; alt=&#34;screenshot&#34; /&gt;
+
+&lt;img src=&#34;/img/cosse-02.jpg&#34; alt=&#34;screenshot&#34; /&gt;
+
+&lt;img src=&#34;/img/cosse-03.jpg&#34; alt=&#34;screenshot&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dalicious</title>
+      <link>http://sahnvour.github.io/projects/dalicious/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/dalicious/</guid>
+      <description>&lt;p&gt;In november 2014, I registered for the &lt;a href=&#34;http://www.montpellieringame.com/index.php/events/game-challenge/&#34;&gt;Game Challenge&lt;/a&gt;, taking place during the Montpellier In Game summit.&lt;/p&gt;
+
+&lt;p&gt;Teams of around 10 students were formed with developers, graphists, game designers and sound artists. Each group had to draw five random constraints for their game. We picked the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use a camera as input for the game&lt;/li&gt;
+&lt;li&gt;Use a 2D axis input for something else than moving a camera or an object in-game&lt;/li&gt;
+&lt;li&gt;Have a cooking mechanic as core gameplay&lt;/li&gt;
+&lt;li&gt;Take inspiration from Dali&amp;rsquo;s work for the game art&lt;/li&gt;
+&lt;li&gt;Have a dynamic soundtrack&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Not an easy task.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We still managed to have a working prototype at the end of the three days.&lt;/p&gt;
 </description>
     </item>
     

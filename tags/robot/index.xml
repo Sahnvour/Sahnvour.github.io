@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Robot on Antoine Vugliano </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://sahnvour.github.io/tags/robot/index.xml/</link>
+    <language>en-us</language>
+    <author>Antoine Vugliano</author>
+    
+    <updated>Thu, 29 May 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Lego Mindstorm</title>
+      <link>http://sahnvour.github.io/projects/holidayz/</link>
+      <pubDate>Thu, 29 May 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/holidayz/</guid>
+      <description>
+
+&lt;p&gt;As an optional project using &lt;em&gt;innovative technologies&lt;/em&gt;, we (a group of 7 students) created a robot with the following objectives:
+- grab and store small plastic balls
+- differentiate blue and red balls
+- find its way in an environment with obstacles&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Setup&lt;/h1&gt;
+
+&lt;p&gt;The robot was built with a &lt;a href=&#34;https://en.wikipedia.org/wiki/Lego_Mindstorms_EV3&#34;&gt;Mindstorm&lt;/a&gt; brick to control the different motors (wheels, arms).
+We put a smartphone on it, filming the ground just in front of it to detect balls and move accordingly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/holidayz-01.png&#34; alt=&#34;robot&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The play field was filmed by 4 cameras with different view angles, streaming their videos on the local network. A computer ran our server program that constructed a single view of the field from the cameras, and identified balls and obstacles before sending them to the robot. It also analysed video streamed from the smartphone to detect near-by balls. The software on the Lego brick was then able to compute its moves to catch the balls and find its way to an arbitrary point using the info from the server.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/holidayz-02.png&#34; alt=&#34;robot&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
