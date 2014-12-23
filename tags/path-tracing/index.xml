@@ -22,8 +22,9 @@
 &lt;ul&gt;
 &lt;li&gt;Global Illumination&lt;/li&gt;
 &lt;li&gt;Point and sphere lights&lt;/li&gt;
-&lt;li&gt;Diffuse, specular, refractive, glossy materials&lt;/li&gt;
-&lt;li&gt;Multi-material surfaces&lt;/li&gt;
+&lt;li&gt;Diffuse, specular, refractive materials&lt;/li&gt;
+&lt;li&gt;Complex materials combination&lt;/li&gt;
+&lt;li&gt;Textured objects with normal mapping&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/collimateru-01.png&#34; alt=&#34;image&#34; /&gt;
