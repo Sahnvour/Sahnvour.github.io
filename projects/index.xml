@@ -7,7 +7,65 @@
     <language>en-us</language>
     <author>Antoine Vugliano</author>
     
-    <updated>Sat, 10 Jan 2015 00:00:00 UTC</updated>
+    <updated>Fri, 10 Apr 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Feline Good</title>
+      <link>http://sahnvour.github.io/projects/feline%20good/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/feline%20good/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://felinegoodgame.com/&#34;&gt;Feline Good&lt;/a&gt; is my final year study project at &lt;a href=&#34;http://gamagora.univ-lyon2.fr/&#34;&gt;Gamagora&lt;/a&gt; 2014-15.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/logo.png&#34; alt=&#34;Feline Good Logo&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Context&lt;/h1&gt;
+
+&lt;p&gt;Gamagora offers three different formations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Game &amp;amp; Level Design&lt;/li&gt;
+&lt;li&gt;3D Infography&lt;/li&gt;
+&lt;li&gt;Programmation &amp;amp; Development, a one and final year of a Master&amp;rsquo;s degree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After 4 months of courses, all the students are to gather in groups of about 13 students to make a full game in 3 months. This happens from January to April.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/rembrandt.png&#34; alt=&#34;Rembrandt image&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Feline Good&lt;/h1&gt;
+
+&lt;p&gt;Feline Good is a 3D Sidescroller where you play &lt;strong&gt;Rembrandt&lt;/strong&gt;, a proud stray cat in the New Orleans of the 1920&amp;rsquo;s. I invite you to visit the official website for a more complete description of the project (altough in french) and a downloadable build.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Organization in the project&lt;/h2&gt;
+
+&lt;p&gt;Our team was composed of 13 people from Gamagora:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3 programmers&lt;/li&gt;
+&lt;li&gt;4 artists&lt;/li&gt;
+&lt;li&gt;6 game designers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From the very start, we organized ourselves with many personnal second roles such as leads, project manager, community manager, product owner etc. I was myself the lead programmer on the project.&lt;/p&gt;
+
+&lt;p&gt;This helped us a lot to distribute tasks efficiently and to have a good coordination during the project. On top of that, we used an adapted Scrum method with short sprints of one week.&lt;/p&gt;
+
+&lt;p&gt;In the end, that is in my oppinion the most valuable point of the formation. We all learned to work as a team, and not a tiny one. We had to learn and understand how other jobs work and think to create a great game on top of a good communication.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Unreal Engine 4&lt;/h2&gt;
+
+&lt;p&gt;At the start of the project, we had a hard time choosing between two of the best engines at our disposal: &lt;strong&gt;Unity&lt;/strong&gt; and &lt;strong&gt;Unreal Engine 4&lt;/strong&gt;. We, programmers, had already worked with Unity more or less, so that it was the safe choice. But UE4 is certainly going to be a first class actor of the videogames industry in the very short future, is using C++ for programming, and has a lot of cool features: it was the choice of heart.&lt;/p&gt;
+
+&lt;p&gt;What tipped the balance in favour of UE4 is its &lt;strong&gt;Blueprint&lt;/strong&gt; system. It&amp;rsquo;s a very tightly integrated node programming system that allow users to prototype very quickly and even to make complete games without a single line of code. In our case, we liked this because it could be a great help for level designers and programmers. And it was.&lt;/p&gt;
+
+&lt;p&gt;Building our project with an engine we had to learn at the same time was not easy, and that was maybe the greatest challenge we had. But we successfully overcame the difficulties.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Collimateru</title>
@@ -228,6 +286,266 @@ end
 &lt;li&gt;&lt;a href=&#34;http://sahnvour.github.io/SHMµP/&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Sahnvour/shmup-scripting&#34;&gt;Scripting documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tweetable mathematical art: Voronoi diagrams</title>
+      <link>http://sahnvour.github.io/projects/voronoi/</link>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/voronoi/</guid>
+      <description>
+
+&lt;p&gt;My second participation to the challenge &lt;a href=&#34;http://codegolf.stackexchange.com/questions/35569/tweetable-mathematical-art&#34;&gt;Tweetable mathematical art&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Random &lt;a href=&#34;http://en.wikipedia.org/wiki/Voronoi_diagram&#34;&gt;Voronoi diagram&lt;/a&gt; generator anyone?&lt;/h1&gt;
+
+&lt;p&gt;OK, this one gave me a hard time. I think it&amp;rsquo;s pretty nice though, even if the results are not so &lt;em&gt;arty&lt;/em&gt; as some others. That&amp;rsquo;s the deal with randomness. Maybe some intermediate images look better, but I really wanted to have a fully working algorithm with voronoi diagrams.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/Nr8zQ.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Edit:&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/FbbJr.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;This is one example of the final algorithm. The image is basically the superposition of three voronoi diagram, one for each color component (red, green, blue).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;ungolfed, commented version at the end&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- language: lang-c --&gt;
+
+&lt;pre&gt;&lt;code&gt;unsigned short red_fn(int i, int j){
+int t[64],k=0,l,e,d=2e7;srand(time(0));while(k&amp;lt;64){t[k]=rand()%DIM;if((e=_sq(i-t[k])+_sq(j-t[42&amp;amp;k++]))&amp;lt;d)d=e,l=k;}return t[l];
+}
+
+unsigned short green_fn(int i, int j){
+static int t[64];int k=0,l,e,d=2e7;while(k&amp;lt;64){if(!t[k])t[k]=rand()%DIM;if((e=_sq(i-t[k])+_sq(j-t[42&amp;amp;k++]))&amp;lt;d)d=e,l=k;}return t[l];
+}
+
+unsigned short blue_fn(int i, int j){
+static int t[64];int k=0,l,e,d=2e7;while(k&amp;lt;64){if(!t[k])t[k]=rand()%DIM;if((e=_sq(i-t[k])+_sq(j-t[42&amp;amp;k++]))&amp;lt;d)d=e,l=k;}return t[l];
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It took me a lot of efforts, so I feel like sharing the results at different stages, and there are nice (incorrect) ones to show.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;First step: have some points placed randomly, with &lt;code&gt;x=y&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/mRi8x.jpg&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I have converted it to jpeg because the original png was too heavy for upload (&lt;code&gt;&amp;gt;2MB&lt;/code&gt;), I bet that&amp;rsquo;s way more than 50 shades of grey!&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Second: have a better y coordinate&lt;/h2&gt;
+
+&lt;p&gt;I couldn&amp;rsquo;t afford to have another table of coordinates randomly generated for the &lt;code&gt;y&lt;/code&gt; axis, so I needed a simple way to get &lt;strong&gt;&amp;ldquo;&lt;/strong&gt; random &lt;strong&gt;&amp;ldquo;&lt;/strong&gt; ones in as few characters as possible. I went for using the &lt;code&gt;x&lt;/code&gt; coordinate of another point in the table, by doing a bitwise &lt;code&gt;AND&lt;/code&gt; on the index of the point.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/SWSow.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;3rd: I don&amp;rsquo;t remember but it&amp;rsquo;s getting nice&lt;/h2&gt;
+
+&lt;p&gt;But at this time I was way over 140 chars, so I needed to golf it down quite a bit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/FtUNH.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;4th: scanlines&lt;/h2&gt;
+
+&lt;p&gt;Just kidding, this is not wanted but kind of cool, methinks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/AnSXs.png&#34; alt=&#34;enter image description here&#34; /&gt;
+
+&lt;img src=&#34;http://i.stack.imgur.com/IxHqh.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Still working on reducing the size of the algorithm, I am proud to present:&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_7&#34;&gt;StarFox edition&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/Jmoz4.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_8&#34;&gt;Voronoi instagram&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/2fSkP.jpg&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;5th: increase the number of points&lt;/h2&gt;
+
+&lt;p&gt;I have now a working piece of code, so let&amp;rsquo;s go from 25 to 60 points.
+&lt;img src=&#34;http://i.stack.imgur.com/NlpsC.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s hard to see from only one image, but the points are nearly all located in the same &lt;code&gt;y&lt;/code&gt; range. Of course, I didn&amp;rsquo;t change the bitwise operation, &lt;code&gt;&amp;amp;42&lt;/code&gt; is much better:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/efACY.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And here we are, at the same point as the very first image from this post.
+Let&amp;rsquo;s now explain the code for the rare ones that would be interested.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;Ungolfed and explained code&lt;/h2&gt;
+
+&lt;!-- language: lang-c --&gt;
+
+&lt;pre&gt;&lt;code&gt;unsigned short red_fn(int i, int j)
+{
+    int t[64],          // table of 64 points&#39;s x coordinate
+        k = 0,          // used for loops
+        l,              // retains the index of the nearest point
+        e,              // for intermediary results
+        d = 2e7;        // d is the minimum distance to the (i,j) pixel encoutnered so far
+        // it is initially set to 2e7=2&#39;000&#39;000 to be greater than the maximum distance 1024²
+
+    srand(time(0));     // seed for random based on time of run
+    // if the run overlaps two seconds, a split will be observed on the red diagram but that is
+    // the better compromise I found
+
+    while(k &amp;lt; 64)       // for every point
+    {
+        t[k] = rand() % DIM;        // assign it a random x coordinate in [0, 1023] range
+        // this is done at each call unfortunately because static keyword and srand(...)
+        // were mutually exclusive, lenght-wise
+
+        if (
+            (e=                         // assign the distance between pixel (i,j) and point of index k
+                _sq(i - t[k])           // first part of the euclidian distance
+                +
+                _sq(j - t[42 &amp;amp; k++])    // second part, but this is the trick to have &amp;quot;&amp;quot; random &amp;quot;&amp;quot; y coordinates
+                // instead of having another table to generate and look at, this uses the x coordinate of another point
+                // 42 is 101010 in binary, which is a better pattern to apply a &amp;amp; on; it doesn&#39;t use all the table
+                // I could have used 42^k to have a bijection k &amp;lt;-&amp;gt; 42^k but this creates a very visible pattern splitting the image at the diagonal
+                // this also post-increments k for the while loop
+            ) &amp;lt; d                       // chekcs if the distance we just calculated is lower than the minimal one we knew
+        )
+        // {                            // if that is the case
+            d=e,                        // update the minimal distance
+            l=k;                        // retain the index of the point for this distance
+            // the comma &#39;,&#39; here is a trick to have multiple expressions in a single statement
+            // and therefore avoiding the curly braces for the if
+        // }
+    }
+
+    return t[l];        // finally, return the x coordinate of the nearest point
+    // wait, what ? well, the different areas around points need to have a
+    // &amp;quot;&amp;quot; random &amp;quot;&amp;quot; color too, and this does the trick without adding any variables
+}
+
+// The general idea is the same so I will only comment the differences from green_fn
+unsigned short green_fn(int i, int j)
+{
+    static int t[64];       // we don&#39;t need to bother a srand() call, so we can have these points
+    // static and generate their coordinates only once without adding too much characters
+    // in C++, objects with static storage are initialized to 0
+    // the table is therefore filled with 60 zeros
+    // see http://stackoverflow.com/a/201116/1119972
+
+    int k = 0, l, e, d = 2e7;
+
+    while(k&amp;lt;64)
+    {
+        if( !t[k] )                 // this checks if the value at index k is equal to 0 or not
+        // the negation of 0 will cast to true, and any other number to false
+            t[k] = rand() % DIM;    // assign it a random x coordinate
+
+        // the following is identical to red_fn
+        if((e=_sq(i-t[k])+_sq(j-t[42&amp;amp;k++]))&amp;lt;d)
+            d=e,l=k;
+    }
+
+    return t[l];
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tweetable mathematical art: Julia sets</title>
+      <link>http://sahnvour.github.io/projects/tweetable/</link>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/tweetable/</guid>
+      <description>
+
+&lt;p&gt;This post is my first entry to this challenge on Stackexchange&amp;rsquo;s PPCG: &lt;a href=&#34;http://codegolf.stackexchange.com/questions/35569/tweetable-mathematical-art&#34;&gt;Tweetable mathematical art&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- language: cpp --&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Julia sets&lt;/h1&gt;
+
+&lt;p&gt;If there&amp;rsquo;s a Mandelbrot, there should be a Julia set too.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/LJMzd.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You can spend hours tweaking the parameters and functions, so this is just a quick one that looks decent.&lt;/p&gt;
+
+&lt;p&gt;Inspired from Martin&amp;rsquo;s participation.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;unsigned short red_fn(int i, int j){
+#define D(x) (x-DIM/2.)/(DIM/2.)
+float x=D(i),y=D(j),X,Y,n=0;while(n++&amp;lt;200&amp;amp;&amp;amp;(X=x*x)+(Y=y*y)&amp;lt;4){x=X-Y+.36237;y=2*x*y+.32;}return log(n)*256;}
+
+unsigned short green_fn(int i, int j){
+float x=D(i),y=D(j),X,Y,n=0;while(n++&amp;lt;200&amp;amp;&amp;amp;(x*x+y*y)&amp;lt;4){X=x;Y=y;x=X*X-Y*Y+-.7;y=2*X*Y+.27015;}return log(n)*128;}
+
+unsigned short blue_fn(int i, int j){
+float x=D(i),y=D(j),X,Y,n=0;while(n++&amp;lt;600&amp;amp;&amp;amp;(x*x+y*y)&amp;lt;4){X=x;Y=y;x=X*X-Y*Y+.36237;y=2*X*Y+.32;}return log(n)*128;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Would you like some RNG?&lt;/h1&gt;
+
+&lt;p&gt;OK, Sparr&amp;rsquo;s comment put me on the track to randomize the parameters of these little Julias. I first tried to do bit-level hacking with the result of &lt;code&gt;time(0)&lt;/code&gt; but C++ doesn&amp;rsquo;t allow hexadecimal floating point litterals so this was a dead-end (with my limited knowledge at least). I could have used some heavy casting to achieve it, but that wouldn&amp;rsquo;t have fit into the 140 bytes.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t have much room left anyway, so I had to drop the red Julia to put my macros and have a more conventional RNG (&lt;code&gt;time&lt;/code&gt;d seed and real &lt;code&gt;rand()&lt;/code&gt;, woohoo!).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/AgjFi.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Whoops, something is missing. Obviously, these parameters have to be static or else you have some weird results (but funny, maybe I&amp;rsquo;ll investigate a bit later if I find something interesting).&lt;/p&gt;
+
+&lt;p&gt;So here we are, with only green and blue channels:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/7YgFy.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/U1zez.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/omSaB.png&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s add a simple red pattern to fill the void. Not really imaginative, but I&amp;rsquo;m not a graphic programer &amp;hellip; yet :-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/MkvMA.jpg&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.stack.imgur.com/A9sIn.jpg&#34; alt=&#34;enter image description here&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And finally the new code with random parameters:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;unsigned short red_fn(int i, int j){
+static int n=1;if(n){--n;srand(time(0));}
+#define R rand()/16384.-1
+#define S static float r=R,k=R;float
+return _cb(i^j);}
+
+unsigned short green_fn(int i, int j){
+#define D(x) (x-DIM/2.)/(DIM/2.),
+S x=D(i)y=D(j)X,Y;int n=0;while(n++&amp;lt;200&amp;amp;&amp;amp;(X=x)*x+(Y=y)*y&amp;lt;4){x=X*X-Y*Y+r;y=2*X*Y+k;}return log(n)*512;}
+
+unsigned short blue_fn(int i, int j){
+S x=D(i)y=D(j)X,Y;int n=0;while(n++&amp;lt;200&amp;amp;&amp;amp;(X=x)*x+(Y=y)*y&amp;lt;4){x=X*X-Y*Y+r;y=2*X*Y+k;}return log(n)*512;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There&amp;rsquo;s still room left now &amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

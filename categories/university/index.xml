@@ -7,7 +7,65 @@
     <language>en-us</language>
     <author>Antoine Vugliano</author>
     
-    <updated>Wed, 03 Dec 2014 00:00:00 UTC</updated>
+    <updated>Fri, 10 Apr 2015 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Feline Good</title>
+      <link>http://sahnvour.github.io/projects/feline%20good/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/feline%20good/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://felinegoodgame.com/&#34;&gt;Feline Good&lt;/a&gt; is my final year study project at &lt;a href=&#34;http://gamagora.univ-lyon2.fr/&#34;&gt;Gamagora&lt;/a&gt; 2014-15.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/logo.png&#34; alt=&#34;Feline Good Logo&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Context&lt;/h1&gt;
+
+&lt;p&gt;Gamagora offers three different formations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Game &amp;amp; Level Design&lt;/li&gt;
+&lt;li&gt;3D Infography&lt;/li&gt;
+&lt;li&gt;Programmation &amp;amp; Development, a one and final year of a Master&amp;rsquo;s degree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After 4 months of courses, all the students are to gather in groups of about 13 students to make a full game in 3 months. This happens from January to April.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/rembrandt.png&#34; alt=&#34;Rembrandt image&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Feline Good&lt;/h1&gt;
+
+&lt;p&gt;Feline Good is a 3D Sidescroller where you play &lt;strong&gt;Rembrandt&lt;/strong&gt;, a proud stray cat in the New Orleans of the 1920&amp;rsquo;s. I invite you to visit the official website for a more complete description of the project (altough in french) and a downloadable build.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Organization in the project&lt;/h2&gt;
+
+&lt;p&gt;Our team was composed of 13 people from Gamagora:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3 programmers&lt;/li&gt;
+&lt;li&gt;4 artists&lt;/li&gt;
+&lt;li&gt;6 game designers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From the very start, we organized ourselves with many personnal second roles such as leads, project manager, community manager, product owner etc. I was myself the lead programmer on the project.&lt;/p&gt;
+
+&lt;p&gt;This helped us a lot to distribute tasks efficiently and to have a good coordination during the project. On top of that, we used an adapted Scrum method with short sprints of one week.&lt;/p&gt;
+
+&lt;p&gt;In the end, that is in my oppinion the most valuable point of the formation. We all learned to work as a team, and not a tiny one. We had to learn and understand how other jobs work and think to create a great game on top of a good communication.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Unreal Engine 4&lt;/h2&gt;
+
+&lt;p&gt;At the start of the project, we had a hard time choosing between two of the best engines at our disposal: &lt;strong&gt;Unity&lt;/strong&gt; and &lt;strong&gt;Unreal Engine 4&lt;/strong&gt;. We, programmers, had already worked with Unity more or less, so that it was the safe choice. But UE4 is certainly going to be a first class actor of the videogames industry in the very short future, is using C++ for programming, and has a lot of cool features: it was the choice of heart.&lt;/p&gt;
+
+&lt;p&gt;What tipped the balance in favour of UE4 is its &lt;strong&gt;Blueprint&lt;/strong&gt; system. It&amp;rsquo;s a very tightly integrated node programming system that allow users to prototype very quickly and even to make complete games without a single line of code. In our case, we liked this because it could be a great help for level designers and programmers. And it was.&lt;/p&gt;
+
+&lt;p&gt;Building our project with an engine we had to learn at the same time was not easy, and that was maybe the greatest challenge we had. But we successfully overcame the difficulties.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Skeletons</title>

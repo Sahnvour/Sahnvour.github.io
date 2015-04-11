@@ -126,7 +126,7 @@
       				
       					<div class="post-categories">
       					
-      						<a class="post-category post-category-Projects" href="/categories/Projects">Projects</a> 
+      						<a class="post-category post-category-One-shots" href="/categories/One-shots">One shots</a> 
       					
       						<a class="post-category post-category-Personnal" href="/categories/Personnal">Personnal</a> 
       					
@@ -266,6 +266,88 @@
 			</div>
           </section>
         
+          <section  class="post">
+            <header class="post-header">
+            
+            <div class="post-avatar-wrapper">
+              <img class="post-avatar" alt="" src="/img/voronoi.png">
+            </div>
+            
+            <h1 class="post-title">
+              <a href="/projects/voronoi/">Tweetable mathematical art: Voronoi diagrams</a>
+            </h1>
+            </header>
+            <p class="post-meta">
+            	
+		          <span class="post-date">
+		            <span class="post-date-day"><sup>5</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Aug</span> <span class="post-date-year">2014</span>
+		          </span>
+      				
+      				
+      					
+      				
+              
+                <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>5 min. read</em></span>
+              
+      				
+      					<div class="post-categories">
+      					
+      						<a class="post-category post-category-Projects" href="/categories/Projects">Projects</a> 
+      					
+      						<a class="post-category post-category-Personnal" href="/categories/Personnal">Personnal</a> 
+      					
+      					</div>
+      				
+            </p>
+            <article class="post-summary">
+            	My second participation to the challenge Tweetable mathematical art. Random Voronoi diagram generator anyone? OK, this one gave me a hard time. I think it&rsquo;s pretty nice though, even if the results are not so arty as some others. That&rsquo;s the deal with randomness. Maybe some intermediate images look better, but I really wanted to have a fully working algorithm with voronoi diagrams. Edit: This is one example of the final algorithm.
+            </article>
+			<div class="read-more-link">
+				<a href="/projects/voronoi/"><span class="read-more-slashes">//</span>Read More...</a>
+			</div>
+          </section>
+        
+          <section  class="post">
+            <header class="post-header">
+            
+            <div class="post-avatar-wrapper">
+              <img class="post-avatar" alt="" src="/img/julia.png">
+            </div>
+            
+            <h1 class="post-title">
+              <a href="/projects/tweetable/">Tweetable mathematical art: Julia sets</a>
+            </h1>
+            </header>
+            <p class="post-meta">
+            	
+		          <span class="post-date">
+		            <span class="post-date-day"><sup>3</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Aug</span> <span class="post-date-year">2014</span>
+		          </span>
+      				
+      				
+      					
+      				
+              
+                <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>2 min. read</em></span>
+              
+      				
+      					<div class="post-categories">
+      					
+      						<a class="post-category post-category-Projects" href="/categories/Projects">Projects</a> 
+      					
+      						<a class="post-category post-category-Personnal" href="/categories/Personnal">Personnal</a> 
+      					
+      					</div>
+      				
+            </p>
+            <article class="post-summary">
+            	This post is my first entry to this challenge on Stackexchange&rsquo;s PPCG: Tweetable mathematical art. Julia sets If there&rsquo;s a Mandelbrot, there should be a Julia set too. You can spend hours tweaking the parameters and functions, so this is just a quick one that looks decent. Inspired from Martin&rsquo;s participation. unsigned short red_fn(int i, int j){ #define D(x) (x-DIM/2.)/(DIM/2.) float x=D(i),y=D(j),X,Y,n=0;while(n++&lt;200&amp;&amp;(X=x*x)+(Y=y*y)&lt;4){x=X-Y+.36237;y=2*x*y+.32;}return log(n)*256;} unsigned short green_fn(int i, int j){ float x=D(i),y=D(j),X,Y,n=0;while(n++&lt;200&amp;&amp;(x*x+y*y)&lt;4){X=x;Y=y;x=X*X-Y*Y+-.7;y=2*X*Y+.27015;}return log(n)*128;} unsigned short blue_fn(int i, int j){ float x=D(i),y=D(j),X,Y,n=0;while(n++&lt;600&amp;&amp;(x*x+y*y)&lt;4){X=x;Y=y;x=X*X-Y*Y+.36237;y=2*X*Y+.32;}return log(n)*128;} Would you like some RNG?
+            </article>
+			<div class="read-more-link">
+				<a href="/projects/tweetable/"><span class="read-more-slashes">//</span>Read More...</a>
+			</div>
+          </section>
+        
       </div>
 
       <div class="footer">
@@ -276,7 +358,7 @@
 		</ul>
 	</div>
 
-	<p>&copy; 2014. All rights reserved. </p>
+	<p>&copy; 2015. All rights reserved. </p>
 </div>
     </div>
   </div>
