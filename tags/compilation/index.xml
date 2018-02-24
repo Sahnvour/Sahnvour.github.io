@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Compilation on Antoine Vugliano </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://sahnvour.github.io/tags/compilation/index.xml/</link>
+    <language>en-us</language>
+    <author>Antoine Vugliano</author>
+    
+    <updated>Sat, 01 Feb 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Numerical invariants in FAUST</title>
+      <link>http://sahnvour.github.io/projects/FAUST/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 UTC</pubDate>
+      <author>Antoine Vugliano</author>
+      <guid>http://sahnvour.github.io/projects/FAUST/</guid>
+      <description>&lt;p&gt;During my fourth year of studies, I did an internship for a research subject, under the direction of my professor &lt;a href=&#34;http://laure.gonnord.org&#34;&gt;Laure Gonnord&lt;/a&gt;. This is meant to initiate students to what research work is, and help them choose an orientation (research or professionnal) for their last year of studies.&lt;/p&gt;
+
+&lt;p&gt;The subject of my internship was eliminating a constraint inside the FAUST compiler, allowing the writing of simpler programs without the need for workarounds.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://faust.grame.fr/about/&#34;&gt;FAUST&lt;/a&gt; is a functional programming language specifically designed for real-time signal processing and synthesis.&lt;/p&gt;
+
+&lt;p&gt;The result of my work is available &lt;a href=&#34;http://laure.gonnord.org/pro/papers/rapport_TER2014_Vugliano_final.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
